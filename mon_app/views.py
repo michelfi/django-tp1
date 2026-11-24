@@ -28,3 +28,4 @@ def help_page(request):  # route « /help/ »
     donnees = {"email": "contact@monprojet.com", "telephone": "0123456789"}
     # Response convertit le dictionnaire en JSON (statut 200 OK par défaut).
     return Response(donnees)
+
